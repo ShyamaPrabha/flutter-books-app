@@ -1,5 +1,5 @@
 
-import 'package:my_books/repositories.dart/book_repository.dart';
+import 'package:my_books/repositories/book_repository.dart';
 
 import '../models/books_model.dart';
 
