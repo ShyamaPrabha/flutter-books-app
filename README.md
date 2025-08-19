@@ -1,16 +1,29 @@
-# my_books
+# Flutter Books App
 
-A new Flutter project.
+A Flutter application to browse books, view details, and manage favourites.  
+Built with **Provider** state management and follows a clean architecture approach.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
+-  Browse a list of books (fetched from API).
+-  View detailed information about each book.
+-  Add/remove books from **Favourites** (saved locally).
+-  Responsive UI with Flutter Widgets.
 
-A few resources to get you started if this is your first Flutter project:
+---
+## Project Structure
+lib/
+│
+├── models/          # Data models (e.g., Book, Work)
+├── providers/       # State management with Provider
+├── usecase/         # Business logic / API calls
+├── screens/         # UI screens (Listing, Detail, Favourites)
+├── widgets/         # Reusable widgets
+└── main.dart        # App entry point
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
+## Architecture
+- Used Provider For State Management
+- Local Storage implemented using Shared Preferences . Books marked as favourites stored locally
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
