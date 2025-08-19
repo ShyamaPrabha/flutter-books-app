@@ -1,16 +1,48 @@
-# my_books
+# Flutter Books App
 
-A new Flutter project.
+A Flutter application to browse books, view details, and manage favourites.  
+Built with **Provider** state management and follows a clean architecture approach.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
+-  Browse a list of books (fetched from API).
+-  View detailed information about each book.
+-  Add/remove books from **Favourites** (saved locally).
+-  Responsive UI with Flutter Widgets.
 
-A few resources to get you started if this is your first Flutter project:
+---
+## 🛠️ Setup Instructions
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Prerequisites
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (latest stable version)
+- Android Studio / VS Code
+- Git installed
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Steps
+1. **Clone the repository**
+   git clone  https://github.com/ShyamaPrabha/flutter-books-app.git
+2. **Navigate into the project**
+3. **Get dependencies**
+4. **Run the app**
+   
+## Project Structure
+
+This project follows a Clean Architecture inspired, Provider-based state management approach.
+The structure is modular and layered, similar to MVVM, where:
+
+core/ and models/ → define data models
+
+repositories/ → handle API calls and data persistence
+
+providers/ → act as ViewModels (business logic + state management)
+
+screens/ and widgets/ → represent the View (UI layer)
+
+services/, themes/, utils/ → reusable helpers, theming, and bootstrap setup
+
+---
+## Architecture
+- Used Provider For State Management
+- Local Storage implemented using Shared Preferences . Books marked as favourites stored locally
+
