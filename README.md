@@ -12,15 +12,34 @@ Built with **Provider** state management and follows a clean architecture approa
 -  Responsive UI with Flutter Widgets.
 
 ---
+## 🛠️ Setup Instructions
+
+### Prerequisites
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (latest stable version)
+- Android Studio / VS Code
+- Git installed
+
+### Steps
+1. **Clone the repository**
+   git clone  https://github.com/ShyamaPrabha/flutter-books-app.git
+2. **Navigate into the project**
+3. **Get dependencies**
+4. **Run the app**
+   
 ## Project Structure
-lib/
-│
-├── models/          # Data models (e.g., Book, Work)
-├── providers/       # State management with Provider
-├── usecase/         # Business logic / API calls
-├── screens/         # UI screens (Listing, Detail, Favourites)
-├── widgets/         # Reusable widgets
-└── main.dart        # App entry point
+
+This project follows a Clean Architecture inspired, Provider-based state management approach.
+The structure is modular and layered, similar to MVVM, where:
+
+core/ and models/ → define data models
+
+repositories/ → handle API calls and data persistence
+
+providers/ → act as ViewModels (business logic + state management)
+
+screens/ and widgets/ → represent the View (UI layer)
+
+services/, themes/, utils/ → reusable helpers, theming, and bootstrap setup
 
 ---
 ## Architecture
