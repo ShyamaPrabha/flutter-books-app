@@ -12,7 +12,7 @@ Built with **Provider** state management and follows a clean architecture approa
 -  Responsive UI with Flutter Widgets.
 
 ---
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 - [Flutter SDK](https://docs.flutter.dev/get-started/install) (latest stable version)
